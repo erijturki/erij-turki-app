@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SessionItemComponent } from './session-item/session-item.component';
 import { SessionItemListComponent } from './session-item-list/session-item-list.component';
+import { TestcomponentComponent } from './testcomponent/testcomponent.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SessionItemComponent,
-    SessionItemListComponent
+    SessionItemListComponent,
+    TestcomponentComponent
   ],
   imports: [
     BrowserModule,
